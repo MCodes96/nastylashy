@@ -1,0 +1,28 @@
+/*
+Theme Name: NastyLashy
+Author: Mikayil Gacek
+Author URI: https://mikayil.dev/
+Description: Ein individuelles Theme für NastyLashy
+Version: 2023
+Requires at least: 5.2
+Tested up to: 6.1
+Requires PHP: 7.0
+Text Domain: nastylashy
+
+Nastylashy WordPress Theme © 2011-2023 Mikayil Gacek
+*/
+
+/* Reset */
+:root {
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+    /* nice girly font but not too cursive and abstract */
+    font-family: 'Dancing Script', cursive;
+
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
