@@ -5,14 +5,17 @@ header {
 	left: 0;
 	width: 100%;
 	z-index: 999;
-	height: 80px;
+	height: var(--header-height);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
 	nav {
 		margin: 0 auto;
+		height: 100%;
+
 		ul {
 			display: flex;
 			align-items: center;
@@ -31,16 +34,21 @@ header {
 				cursor: pointer;
 				transition: all 0.3s ease-in-out;
 
-				&:hover {
-					background: #333;
-				}
-
 				a {
 					color: white;
 					text-decoration: none;
 					font-size: 16px;
 					font-weight: 500;
 					text-transform: uppercase;
+					transition: 0.3s;
+				}
+
+				&:hover {
+					background: white;
+
+					a {
+						color: black;
+					}
 				}
 			}
 		}
