@@ -9,4 +9,6 @@ This website will not grow a lot and will only have a handful of features, so I 
 
 Also I wanted to be done with it ASAP because I promised my Fiancée I would do it.
 
-Don't judge me please, I'm not happy with this myself...
+Don't judge me please, I'm not happy with the code and the rest myself...
+
+I used BlankSlate Theme as a starting point.
