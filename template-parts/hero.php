@@ -16,6 +16,6 @@
         </div>
         <h1><?= get_field('heading') ?></h1>
         <h3><?= get_field('sub_heading') ?></h3>
-        <a href="#" class="small-label"><?= get_field('small_label') ?></p>
+        <a href="#" class="small-label"><?= get_field('small_label') ?></a>
     </div>
 </section>

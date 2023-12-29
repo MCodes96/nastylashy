@@ -1,0 +1,28 @@
+.column-text {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto 160px;
+  padding: 0 160px;
+}
+.column-text .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+.column-text .container .column {
+  flex: 0 1 300px;
+  max-width: 1360px;
+  text-align: center;
+}
+.column-text .container .column h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.column-text .container .column p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=column-text.css.map */
