@@ -23,6 +23,7 @@ wp_enqueue_script('image-carousel', get_template_directory_uri() . '/assets/scri
         <button class="prev" title="Zurück">
             <img src="/wp-content/themes/nastylashy/assets/images/prev.svg" alt="">
         </button>
+        <div class="dots"></div>
         <button class="next" title="Vor">
             <img src="/wp-content/themes/nastylashy/assets/images/prev.svg" alt="">
         </button>

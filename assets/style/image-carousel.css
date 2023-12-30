@@ -3,11 +3,11 @@
 }
 .image-carousel h2 {
   text-align: center;
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
 }
 .image-carousel .carousel .slick-list .slick-track {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 .image-carousel .carousel .img-container {
   display: flex;
@@ -30,13 +30,41 @@
   gap: 20px;
   margin-top: 30px;
 }
-.image-carousel .carousel-controls button {
+.image-carousel .carousel-controls .dots .slick-dots {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.image-carousel .carousel-controls .dots .slick-dots li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--gold);
+}
+.image-carousel .carousel-controls .dots .slick-dots li button {
+  background-color: var(--black);
+  opacity: 0.2;
+  width: 8px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 0;
+}
+.image-carousel .carousel-controls .dots .slick-dots li.slick-active button {
+  opacity: 1;
+}
+.image-carousel .carousel-controls > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
   color: white;
-  border: 3px solid var(--gold);
+  border: 3px solid var(--black);
   border-radius: 50%;
   cursor: pointer;
   outline: none;
@@ -44,20 +72,20 @@
   width: 40px;
   aspect-ratio: 1;
 }
-.image-carousel .carousel-controls button.next {
+.image-carousel .carousel-controls > button.next {
   transform: rotate(180deg);
 }
-.image-carousel .carousel-controls button img {
+.image-carousel .carousel-controls > button img {
   height: 15px;
   width: 15px;
   filter: invert(1);
   transition: 0.3s;
 }
-.image-carousel .carousel-controls button:hover {
+.image-carousel .carousel-controls > button:hover {
   background-color: transparent;
-  color: var(--gold);
+  color: var(--black);
 }
-.image-carousel .carousel-controls button:hover img {
+.image-carousel .carousel-controls > button:hover img {
   filter: invert(0);
 }
 

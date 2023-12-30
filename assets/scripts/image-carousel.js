@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		infinite: true,
 		prevArrow: ".image-carousel .prev",
 		nextArrow: ".image-carousel .next",
+        dots: true,
+        appendDots: ".image-carousel .dots",
 		speed: 900,
 		centerMode: true,
 		variableWidth: true,

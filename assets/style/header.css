@@ -1,5 +1,5 @@
 header {
-  background: black;
+  background: var(--black);
   position: sticky;
   top: 0;
   left: 0;
@@ -46,7 +46,7 @@ header nav ul li:hover {
   background: white;
 }
 header nav ul li:hover a {
-  color: black;
+  color: var(--black);
 }
 
 /*# sourceMappingURL=header.css.map */
