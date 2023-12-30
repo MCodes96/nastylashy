@@ -76,7 +76,6 @@
 			h4 {
 				display: block;
 				color: var(--gold);
-				font-weight: 400;
 				padding: 0 1rem;
 			}
 		}
@@ -95,6 +94,7 @@
 			border-radius: 5px;
 			color: white;
 			transition: 0.3s;
+            text-transform: uppercase;
 
 			&:hover {
 				background-color: transparent;

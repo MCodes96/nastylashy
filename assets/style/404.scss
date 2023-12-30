@@ -1,0 +1,9 @@
+main {
+	padding: 160px;
+	min-height: calc(100svh - var(--header-height) - var(--footer-height));
+
+	p {
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+}

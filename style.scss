@@ -17,17 +17,24 @@ Nastylashy WordPress Theme © 2011-2023 Mikayil Gacek
 
 /* Fonts */
 @font-face {
-	font-family: "nohemi";
-	src: url("./assets/fonts/Nohemi-VF.ttf") format("truetype");
-	font-weight: normal;
+	font-family: "REM Sans";
+	src: url("./assets/fonts/REM[wght].ttf") format("truetype");
+	font-weight: 100 1000;
 	font-style: normal;
+}
+
+@font-face {
+	font-family: "REM Sans";
+	src: url("./assets/fonts/REM-Italic[wght].ttf") format("truetype");
+	font-weight: 100 1000;
+	font-style: italic;
 }
 
 /* Reset */
 :root {
 	scroll-behavior: smooth;
 	-webkit-font-smoothing: antialiased;
-	font-family: "nohemi", Arial, sans-serif;
+	font-family: "REM Sans", Arial, sans-serif;
 	font-size: 16px;
 	background-color: var(--white);
 	color: var(--black);
@@ -35,6 +42,7 @@ Nastylashy WordPress Theme © 2011-2023 Mikayil Gacek
 
 	/* Variables */
 	--header-height: 80px;
+	--footer-height: 80px;
 
 	/* Colors */
 	--black: #0f0f0f;
@@ -45,6 +53,10 @@ Nastylashy WordPress Theme © 2011-2023 Mikayil Gacek
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+p, a, button {
+	font-weight: 300;
 }
 
 h1,
@@ -66,7 +78,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 main {
