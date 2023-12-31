@@ -1,5 +1,5 @@
 <?php wp_enqueue_style('hero', get_template_directory_uri() . '/assets/style/hero.css'); ?>
-<section class="hero-section">
+<section id="home" class="hero-section">
     <div class="img-container">
         <div class="gradient-top-overlay"></div>
         <?php $image = get_field('hero_img');
@@ -16,6 +16,6 @@
         </div>
         <h1><?= get_field('heading') ?></h1>
         <h3><?= get_field('sub_heading') ?></h3>
-        <a href="#" class="small-label"><?= get_field('small_label') ?></a>
+        <a href="#kontakt" class="small-label"><?= get_field('small_label') ?></a>
     </div>
 </section>

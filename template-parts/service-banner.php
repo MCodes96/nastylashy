@@ -5,7 +5,7 @@ $service1 = get_field('service_1');
 $service2 = get_field('service_2');
 $service3 = get_field('service_3');
 ?>
-<section class="service-banner">
+<section id="leistungen" class="service-banner">
     <h2><?= $heading ?></h2>
     <div class="service-wrapper">
         <div class="service-container">

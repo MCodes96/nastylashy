@@ -7,7 +7,7 @@ wp_enqueue_script('slick', get_template_directory_uri() . '/assets/scripts/slick
 wp_enqueue_script('image-carousel', get_template_directory_uri() . '/assets/scripts/image-carousel.js');
 ?>
 
-<section class="image-carousel">
+<section id="bilder" class="image-carousel">
     <h2><?= $heading; ?></h2>
     <div class="carousel">
         <?php

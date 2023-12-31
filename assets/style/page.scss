@@ -1,0 +1,35 @@
+main {
+	padding: 50px 160px;
+
+	h1,
+	h2 {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		line-height: 1.5;
+	}
+
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-top: 50px;
+		margin-bottom: 20px;
+		line-height: 1.5;
+	}
+
+	p {
+		line-height: 1.5;
+        margin: 20px 0;
+
+		small {
+            display: block;
+			padding: 20px 0;
+		}
+	}
+
+	ul {
+		padding-left: 20px;
+		margin: 10px 0;
+		line-height: 1.5;
+	}
+}

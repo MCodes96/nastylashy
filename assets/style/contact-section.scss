@@ -31,9 +31,17 @@
 				flex: 1 1 100%;
 				margin-bottom: 50px;
 
-				p {
-					line-height: 1.5;
-					text-align: justify;
+				div {
+					p {
+						line-height: 1.5;
+						text-align: justify;
+					}
+
+                    small {
+                        display: block;
+                        margin-top: 10px;
+                        opacity: 0.5;
+                    }
 				}
 
 				.social-icons {

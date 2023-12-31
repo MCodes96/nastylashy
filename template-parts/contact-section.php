@@ -6,7 +6,7 @@ $socials_text = get_field('socials_text');
 $instagram_link = get_field('insta_profile_link');
 $contactform_text = get_field('contactform_text');
 ?>
-<section class="contact-section" id="kontakt">
+<section id="kontakt" class="contact-section" id="kontakt">
     <h2><?= $heading ?></h2>
     <div class="container">
         <div class="img-container">
@@ -14,7 +14,10 @@ $contactform_text = get_field('contactform_text');
         </div>
         <div class="contact-form">
             <div class="socials">
-                <p><?= $socials_text ?></p>
+                <div>
+                    <p><?= $socials_text ?></p>
+                    <small>*Damit wirst du auf eine externe Seite weitergeleitet.</small>
+                </div>
                 <div class="social-icons">
                     <a href="<?= $instagram_link ?>" target="_blank" title="Zu meinem Instagram Profil">
                         <img src="<?= get_template_directory_uri() . '/assets/images/instagram.svg' ?>" alt="Instagram Icon" />
