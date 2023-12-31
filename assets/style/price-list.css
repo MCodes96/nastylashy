@@ -1,0 +1,41 @@
+.price-list {
+  width: 100%;
+  margin: 0 auto 80px;
+  padding: 50px 160px;
+}
+.price-list .container {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+}
+.price-list .container h2 {
+  text-align: center;
+  margin: 0 auto 50px;
+}
+.price-list .container .price-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+.price-list .container .price-list-container .price-block {
+  flex: 0 1 350px;
+  line-height: 1.5;
+}
+.price-list .container .price-list-container .price-block .main-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 300px;
+}
+.price-list .container .price-list-container .price-block .main-row h3 {
+  margin: 0 0 10px;
+}
+.price-list .container .price-list-container .price-block .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 300px;
+}
+
+/*# sourceMappingURL=price-list.css.map */

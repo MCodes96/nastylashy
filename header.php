@@ -31,6 +31,9 @@ wp_enqueue_style('header', get_template_directory_uri() . '/assets/style/header.
                     <a href="/#faq" itemprop="url">FAQ</a>
                 </li>
                 <li>
+                    <a href="/#preise" itemprop="url">Preise</a>
+                </li>
+                <li>
                     <a href="/#kontakt" itemprop="url">Kontakt</a>
                 </li>
             </ul>

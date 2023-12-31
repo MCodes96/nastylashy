@@ -8,5 +8,6 @@ get_template_part('template-parts/image-carousel');
 get_template_part('template-parts/service-banner');
 get_template_part('template-parts/column-text');
 get_template_part('template-parts/faq');
+get_template_part('template-parts/price-list');
 get_template_part('template-parts/contact-section');
 get_footer();
