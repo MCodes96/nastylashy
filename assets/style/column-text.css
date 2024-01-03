@@ -3,6 +3,17 @@
   margin: 0 auto 160px;
   padding: 0 160px;
 }
+@media (max-width: 950px) {
+  .column-text {
+    padding: 0px 80px;
+  }
+}
+@media (max-width: 600px) {
+  .column-text {
+    padding: 0px 20px;
+    margin: 0 auto 40px;
+  }
+}
 .column-text h2 {
   width: 100%;
   text-align: center;
@@ -15,10 +26,26 @@
   justify-content: space-between;
   gap: 80px;
 }
+@media (max-width: 1160px) {
+  .column-text .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .column-text .container {
+    gap: 40px;
+  }
+}
 .column-text .container .column {
   flex: 0 1 300px;
   max-width: 1360px;
   text-align: center;
+}
+@media (max-width: 1160px) {
+  .column-text .container .column {
+    flex: 1 1 300px;
+  }
 }
 .column-text .container .column h4 {
   font-size: 1.2rem;

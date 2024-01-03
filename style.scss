@@ -47,6 +47,14 @@ Nastylashy WordPress Theme © 2011-2023 Mikayil Gacek
 	/* Colors */
 	--black: #0f0f0f;
 	--gold: #8a6c3f;
+
+    @media screen and (max-width: 600px) {
+        font-size: 14px;
+    }
+}
+
+body[data-scroll-off] {
+    overflow: hidden;
 }
 
 * {

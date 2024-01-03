@@ -1,9 +1,17 @@
 .image-carousel {
 	margin-bottom: 160px;
+    @media screen and (max-width: 600px) {
+        margin-bottom: 80px;
+    }
 
 	h2 {
 		text-align: center;
 		margin: 0 auto 30px;
+        padding: 0 160px;
+        line-height: 1.5;
+        @media screen and (max-width: 600px) {
+            padding: 0 20px;
+        }
 	}
 
 	.carousel {

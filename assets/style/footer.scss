@@ -2,12 +2,20 @@
 	min-height: var(--footer-height);
 	background-color: var(--black);
 	color: white;
-	padding: 0 160px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	column-gap: 150px;
 	row-gap: 50px;
+	padding: 0 160px;
+    @media screen and (max-width: 900px) {
+        padding: 0 40px;
+        column-gap: 50px;
+        row-gap: 20px;
+    }
+    @media screen and (max-width: 600px) {
+        padding: 20px 20px;
+    }
 
 	.footer-links {
 		display: flex;

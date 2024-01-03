@@ -1,5 +1,11 @@
 .contact-section {
 	padding: 50px 160px;
+    @media (max-width: 950px) {
+        padding: 50px 80px;
+    }
+    @media (max-width: 600px) {
+        padding: 50px 20px;
+    }
 
 	h2 {
 		width: 100%;
@@ -12,6 +18,9 @@
 		gap: 80px;
 		max-width: 1360px;
 		margin: 0 auto;
+		@media (max-width: 950px) {
+			flex-wrap: wrap;
+		}
 
 		.img-container {
 			flex: 1 1 100%;
@@ -37,11 +46,11 @@
 						text-align: justify;
 					}
 
-                    small {
-                        display: block;
-                        margin-top: 10px;
-                        opacity: 0.5;
-                    }
+					small {
+						display: block;
+						margin-top: 10px;
+						opacity: 0.5;
+					}
 				}
 
 				.social-icons {

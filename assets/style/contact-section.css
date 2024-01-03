@@ -1,6 +1,16 @@
 .contact-section {
   padding: 50px 160px;
 }
+@media (max-width: 950px) {
+  .contact-section {
+    padding: 50px 80px;
+  }
+}
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 50px 20px;
+  }
+}
 .contact-section h2 {
   width: 100%;
   text-align: center;
@@ -11,6 +21,11 @@
   gap: 80px;
   max-width: 1360px;
   margin: 0 auto;
+}
+@media (max-width: 950px) {
+  .contact-section .container {
+    flex-wrap: wrap;
+  }
 }
 .contact-section .container .img-container {
   flex: 1 1 100%;

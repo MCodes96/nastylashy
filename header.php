@@ -1,5 +1,6 @@
 <?php
 wp_enqueue_style('header', get_template_directory_uri() . '/assets/style/header.css');
+wp_enqueue_script('header', get_template_directory_uri() . '/assets/scripts/header.js');
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -12,7 +13,12 @@ wp_enqueue_style('header', get_template_directory_uri() . '/assets/style/header.
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <header id="header" role="banner">
+    <header id="header" class="nastylashy-header" role="banner">
+        <button class="mobile-nav-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
         <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
             <ul id="menu-main" class="menu">
                 <li>

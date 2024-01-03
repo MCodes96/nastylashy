@@ -3,6 +3,18 @@
   margin: 0 auto 80px;
   padding: 50px 160px;
 }
+@media (max-width: 950px) {
+  .price-list {
+    padding: 50px 80px;
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .price-list {
+    padding: 30px 20px;
+    margin-bottom: 40px;
+  }
+}
 .price-list .container {
   max-width: 1360px;
   width: 100%;
@@ -17,6 +29,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 50px;
+}
+@media (max-width: 1100px) {
+  .price-list .container .price-list-container {
+    justify-content: center;
+  }
 }
 .price-list .container .price-list-container .price-block {
   flex: 0 1 350px;

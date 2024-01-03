@@ -2,6 +2,17 @@
   padding: 50px 160px;
   margin-bottom: 100px;
 }
+@media (max-width: 950px) {
+  .faq {
+    padding: 50px 80px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .faq {
+    padding: 50px 20px;
+  }
+}
 .faq h2 {
   text-align: center;
   width: 100%;
@@ -27,6 +38,10 @@
   padding-right: 0;
   width: 100%;
   justify-content: space-between;
+}
+.faq .accordion-container .accordion button .text {
+  text-align: left;
+  line-height: 1.5;
 }
 .faq .accordion-container .accordion button .icon-container {
   width: 15px;

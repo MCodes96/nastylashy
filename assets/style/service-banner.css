@@ -3,6 +3,16 @@
   background-color: var(--black);
   margin-bottom: 80px;
 }
+@media (max-width: 950px) {
+  .service-banner {
+    padding: 60px 80px;
+  }
+}
+@media (max-width: 600px) {
+  .service-banner {
+    padding: 60px 20px;
+  }
+}
 .service-banner h2 {
   color: white;
   text-align: center;
@@ -17,11 +27,17 @@
   max-width: 1360px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1160px) {
+  .service-banner .service-wrapper {
+    justify-content: center;
+  }
+}
 .service-banner .service-wrapper .service-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  flex: 0 0 200px;
 }
 .service-banner .service-wrapper .service-container .img-container {
   width: 200px;
@@ -37,6 +53,9 @@
 }
 .service-banner .service-wrapper .service-container .text-container h3 {
   color: white;
+  text-align: center;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 6 11;
 }
 
 /*# sourceMappingURL=service-banner.css.map */
