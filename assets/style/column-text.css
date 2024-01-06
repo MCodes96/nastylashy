@@ -50,6 +50,7 @@
 .column-text .container .column h4 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+  line-height: 1.5;
 }
 .column-text .container .column p {
   font-size: 1rem;
