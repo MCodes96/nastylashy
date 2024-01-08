@@ -16,6 +16,12 @@ document.addEventListener("DOMContentLoaded", () => {
 			} else {
 				accordion.classList.add("open");
 				accordionContent.style.maxHeight = accordionContent.scrollHeight + 20 + "px"; // 20px is the padding
+				accordions.forEach((acc) => {
+					if (acc !== accordion) {
+						acc.classList.remove("open");
+						acc.querySelector(".accordion-content").style.maxHeight = 0;
+					}
+				});
 			}
 		});
 

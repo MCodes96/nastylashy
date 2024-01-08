@@ -44,6 +44,7 @@
   line-height: 1.5;
 }
 .faq .accordion-container .accordion button .icon-container {
+  min-width: 15px;
   width: 15px;
   aspect-ratio: 1;
   display: flex;

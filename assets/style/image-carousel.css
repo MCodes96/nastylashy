@@ -27,7 +27,7 @@
   align-items: center;
   height: 30vh;
   height: 30svh;
-  width: 50vw;
+  aspect-ratio: 1;
 }
 .image-carousel .carousel .img-container img {
   height: 100%;

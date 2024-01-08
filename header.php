@@ -45,4 +45,5 @@ wp_enqueue_script('header', get_template_directory_uri() . '/assets/scripts/head
             </ul>
         </nav>
     </header>
+    <div class="header-placeholder"></div>
     <main id="content" role="main">

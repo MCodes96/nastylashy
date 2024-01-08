@@ -1,6 +1,6 @@
 header {
 	background: var(--black);
-	position: sticky;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -134,10 +134,10 @@ header {
 					}
 
 					&:hover {
-						background: white;
+						background: transparent;
 
 						a {
-							color: var(--black);
+							color: white;
 						}
 					}
 				}
@@ -146,8 +146,12 @@ header {
 	}
 }
 
+.header-placeholder {
+	height: var(--header-height);
+}
+
 @media screen and (max-width: 600px) {
-    header {
-        padding: 0 20px
-    }
+	header {
+		padding: 0 20px;
+	}
 }
